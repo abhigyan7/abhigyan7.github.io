@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+body{
+}
+
+* {
+box-sizing: border-box;
+}
+
+.content {
+  max-width: 650px;
+  color:#333;
+  padding:0 10px;
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 500;
+  font-size:18px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height:1.5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  font-size: 35px;
+  padding-left: 0px;
+}
+
+h1,h2,h3{
+  line-height:1.2;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: .1em;
+}
+
+h3 {
+  font-size: 30px;
+  margin-top: 48px;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+header {
+  margin-bottom: .3em;
+  line-height: 1em;
+}
+
+nav {
+display: block;
+margin-bottom: 10px;
+}
+
+.post_date {
+  color: #aaa;
+  margin-top: 70px;
+}
+
+.main_title {
+  margin-top: 0px;
+}
+
+nav > a {
+  display: inline-block;
+  margin-top: 35px;
+  padding-left: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.foc {
+  color: rgb(0,1,0);
+}
+
+aside {
+  padding-left: 10px;
+  border-left: 2px solid rgb(0,0,0);
+  color: rgb(0.7, 0.0, 0.7);
+}
+
+hr .full {
+
+}
+
+figure {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: none;
+  padding-right: none;
+  margin-bottom: 2em;
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+}
+
+figure > figcaption {
+  color: rgb(128, 128, 128);
+}
+figure > img {
+  width: 130%;
+  padding-left: 0px;
+  display: block;
+  vertical-align: top;
+  align-content: center;
+}
+
+.end-creds {
+  text-align: center;
+  padding-top: 80px;
+  font-size: 15px;
+  padding-bottom: 20px;
+  color: #888888;
+}
