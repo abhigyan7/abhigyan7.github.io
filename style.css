@@ -4,13 +4,15 @@ body{
 }
 
 * {
-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .content {
+  padding-left: 10px;
   max-width: 650px;
   color:#333;
-  padding:0 10px;
   font-family: 'Source Serif Pro', serif;
   font-weight: 500;
   font-size:18px;
@@ -19,14 +21,14 @@ box-sizing: border-box;
   line-height:1.5;
 }
 
-* {
-  margin: 0;
-  padding: 0;
+.col3 {
+  float: left;
+  width: 33.33%;
 }
 
 .title {
-  font-size: 35px;
-  padding-left: 0px;
+  font-size: 25px;
+  padding-top: 30px;
 }
 
 h1,h2,h3{
@@ -35,7 +37,6 @@ h1,h2,h3{
 
 h1 {
   font-size: 3em;
-  margin-bottom: .1em;
 }
 
 h3 {
@@ -47,68 +48,22 @@ h3 {
   font-size: 2em;
 }
 
-header {
-  margin-bottom: .3em;
-  line-height: 1em;
-}
-
-nav {
-display: block;
-margin-bottom: 10px;
-}
-
-.post_date {
+.header {
+  padding: 10px;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
   color: #aaa;
-  margin-top: 70px;
 }
 
-.main_title {
-  margin-top: 0px;
-}
-
-nav > a {
-  display: inline-block;
+.header a {
   margin-top: 35px;
-  padding-left: 10px;
-}
-
-a {
   text-decoration: none;
+  color: #aaa;
 }
 
-.foc {
-  color: rgb(0,1,0);
-}
-
-aside {
-  padding-left: 10px;
-  border-left: 2px solid rgb(0,0,0);
-  color: rgb(0.7, 0.0, 0.7);
-}
-
-hr .full {
-
-}
-
-figure {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: none;
-  padding-right: none;
-  margin-bottom: 2em;
-  border-top: 1px solid #efefef;
-  border-bottom: 1px solid #efefef;
-}
-
-figure > figcaption {
-  color: rgb(128, 128, 128);
-}
-figure > img {
-  width: 130%;
-  padding-left: 0px;
-  display: block;
-  vertical-align: top;
-  align-content: center;
+.subtitle {
+  padding-bottom: 30px;
 }
 
 .end-creds {
@@ -117,4 +72,10 @@ figure > img {
   font-size: 15px;
   padding-bottom: 20px;
   color: #888888;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 }
