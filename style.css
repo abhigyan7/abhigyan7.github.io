@@ -11,7 +11,7 @@ body{
 
 .content {
   padding-left: 10px;
-  max-width: 650px;
+  max-width: 750px;
   color:#333;
   font-family: 'Source Serif Pro', serif;
   font-weight: 500;
@@ -50,7 +50,7 @@ h3 {
 
 .header {
   padding: 10px;
-  max-width: 650px;
+  max-width: 750px;
   margin-left: auto;
   margin-right: auto;
   color: #aaa;
@@ -63,7 +63,13 @@ h3 {
 }
 
 .subtitle {
-  padding-bottom: 30px;
+  color: #555;
+  padding-left: 10px;
+  font-size: 1.2em;
+  border-left-width: 1px;
+  border-left-color: #555;
+  border-left-style: solid;
+  margin-bottom: 20px;
 }
 
 .end-creds {
