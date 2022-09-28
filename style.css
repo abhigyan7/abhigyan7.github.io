@@ -21,6 +21,10 @@ body{
   line-height:1.5;
 }
 
+.post-list .content {
+  text-decoration: none;
+}
+
 .col3 {
   float: left;
   width: 33.33%;
@@ -64,9 +68,9 @@ h3 {
 
 .subtitle {
   color: #777;
-  padding-left: 10px;
+  padding-left: 0px;
   font-size: 1.1em;
-  border-left-width: 1px;
+  border-left-width: 0px;
   border-left-color: #555;
   border-left-style: solid;
   margin-bottom: 20px;
